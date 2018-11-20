@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ManageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/ivImagen"
+        android:layout_width="228dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toTopOf="@+id/btnManage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnManage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="77dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/lblManage"
+        app:layout_constraintStart_toStartOf="@+id/ivImagen"
+        app:layout_constraintTop_toBottomOf="@+id/ivImagen" />
+
+    <TextView
+        android:id="@+id/lblManage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="109dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnManage"
+        app:layout_constraintTop_toBottomOf="@+id/btnManage" />
+
+</android.support.constraint.ConstraintLayout>
