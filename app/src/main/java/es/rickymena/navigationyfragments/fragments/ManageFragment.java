@@ -28,7 +28,7 @@ public class ManageFragment extends Fragment {
 
     public ManageFragment() {
         // Required empty public constructor
-        context = getActivity();
+
     }
 
 
@@ -39,6 +39,9 @@ public class ManageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        context = getActivity();
+
         // Inflate the layout for this fragment
         //quitamos el reurn
         //return inflater.inflate(R.layout.fragment_manage, container, false);
